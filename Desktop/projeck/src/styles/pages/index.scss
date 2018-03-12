@@ -1,0 +1,123 @@
+.wrapper {
+    background-image: url(../images/water.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maincontent {}
+
+.head {}
+
+.loginLink {}
+
+.buttonLink {}
+
+.card {
+    background: rgba(18, 38, 32, 0.5);
+    width: 380px;
+    height: 395px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 8px;
+}
+
+.myImg {
+    border-radius: 100px;
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.myName {}
+
+.developer {
+    position: relative;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.buttons {}
+
+.click {
+    position: relative;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    width: 380px;
+    justify-content: space-around;
+}
+
+.works {
+    box-sizing: border-box;
+    width: 100%;
+    background: $light-green;
+    display: flex;
+    justify-content: center;
+    height: 45px;
+    align-items: center;
+    border-bottom-left-radius: 8px;
+    &:hover {
+        background: $green;
+    }
+}
+
+.about {
+    box-sizing: border-box;
+    width: 100%;
+    background: $light-green;
+    justify-content: center;
+    display: flex;
+    height: 45px;
+    align-items: center;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    &:hover {
+        background: $green;
+    }
+}
+
+.blog {
+    box-sizing: border-box;
+    width: 100%;
+    background: $light-green;
+    display: flex;
+    justify-content: center;
+    height: 45px;
+    align-items: center;
+    border-bottom-right-radius: 8px;
+    &:hover {
+        background: $green;
+    }
+}
+
+.loginLink {
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 22px;
+    right: 100px;
+    border-radius: 30px;
+    &:hover {
+        background-color: $light-green;
+    }
+}
+
+.buttonLogin {
+    width: 180px;
+    height: 45px;
+    border: 2px solid white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+        border: 2px solid #729e19;
+    }
+}

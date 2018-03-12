@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+//colors
+$light-green: #6c9c5a;
+$green: #4e8839;
+$grey: #566358;
+$dark: #373e42;
+//imports
+@import 'common/socials';
+@import 'common/technologies';
+@import 'common/slider';
+@import 'common/technologies';
+@import 'pages/index';
+@import 'pages/blog';
+@import 'pages/about';
+@import 'pages/my-works';

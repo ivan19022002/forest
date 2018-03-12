@@ -1,0 +1,22 @@
+extends ../template
+
+block variables
+    - var title = 'Добро пожаловать'
+
+block content
+    div.wrapper 
+        div.maincontent 
+            div.head 
+                a(href="#", title="title").loginLink 
+                    div.buttonLogin Авторизоваться
+            div.card 
+                img(src="assets/images/myImg.jpg", alt="").myImg 
+                div.myName Матвийчук Иван
+                div.developer Личный сайт веб-разработчика
+                div.click 
+                    a(href="my-works.html", title="title").works
+                        div.works-click Мои работы
+                    a(href="about.html", title="title").about
+                        div.about-click Обо мне
+                    a(href="blog.html", title="title").blog
+                        div.blog-click Блог    
