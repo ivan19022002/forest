@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    height: 60px;
+}
+
+.head {
+    display: flex;
+    top: 22px;
+    position: absolute;
+    justify-content: center;
+    left: 20px;
+}
+
+.ham__icon {
+    background-image: url(../images/icons/hamburger.svg);
+    width: 40px;
+    height: 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transform: rotate(-180deg);
+    transition: 0.8s;
+    &:hover {
+        background-image: url(../images/icons/hamburger-hover.svg);
+        transform: rotate(180deg);
+        transition: 0.8s;
+    }
+}
+
+.hamburger {
+    position: absolute;
+    right: 30px;
+    top: 28px;
+}
+
+.social-icon {
+    position: relative;
+    margin-right: 20px;
+}

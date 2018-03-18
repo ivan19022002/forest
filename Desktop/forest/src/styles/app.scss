@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.section__title-uppercase {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.section__title-uppercase:after {
+    display: table;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom: 3px solid #474b57;
+    width: 56px;
+    height: 13px;
+    content: '';
+}
+
+.section__title-uppercase {
+    padding-top: 32px;
+}
+
+.section__title-uppercase:after {
+    display: table;
+    margin-bottom: 8px;
+    width: 56px;
+    height: 13px;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 63px;
+}
+
+.undertitle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+//media
+$large: 1800px;
+$medium: 1200px;
+$tablets: 768px;
+$phones: 480px;
+//fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+//colors
+$light-green: #6c9c5a;
+$green: #4e8839;
+$grey: #566358;
+$dark: #373e42;
+//imports
+@import 'common/socials';
+@import 'common/misc';
+@import 'common/menu';
+@import 'common/header';
+@import 'common/footer';
+@import 'common/welcome';
+@import 'common/technologies';
+@import 'common/slider';
+@import 'common/technologies';
+@import 'pages/index';
+@import 'pages/blog';
+@import 'pages/about';
+@import 'pages/my-works';

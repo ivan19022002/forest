@@ -1,0 +1,28 @@
+.accordeon {
+    position: relative;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.acco__trigers {
+    display: flex;
+    flex-direction: column;
+}
+
+.acco__triger {
+    color: #455a64;
+    text-decoration: none;
+    padding: 18px;
+}
+
+.acco-text {
+    width: 1000px;
+    position: relative;
+    margin-left: 116px;
+}
+
+.show {
+    border-right: 2px solid $green;
+}

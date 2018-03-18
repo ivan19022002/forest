@@ -1,0 +1,38 @@
+.wrapp {
+    background-image: url(../images/water.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
+    clip-path: polygon(50% 0%, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
+}
+
+.content {
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.name {
+    color: #fff;
+}
+
+.aroww__icon {
+    background-image: url(../images/icons/arrow_down.svg);
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 16px;
+    &:hover {
+        background-image: url(../images/icons/arrow_down-hover.svg);
+    }
+    &:active {
+        animation: slideDown 0.1s;
+    }
+}

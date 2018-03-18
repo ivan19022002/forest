@@ -1,0 +1,31 @@
+extends ../template
+block variables
+    - var title = 'Обо мне'
+
+block content
+    include ../common/welcome
+    .about__section 
+      .about__left 
+        .about__title.title ОБО МНЕ 
+        .about__description 
+          .about__image 
+            img(src="", alt="").about__photo 
+          .about__text 
+            .about__undertitle.undertitle КТО Я 
+            .about__copywrite.copywrite 
+              p Я веб разработчик из Новосибирска. Мне 27 лет. Я занимаюсь разработкой современных сайтов и приложений. Мне нравится делать интересные и современные проекты.
+              p Этот сайт я сделал в рамках обучения в Школе онлайн образования LoftSchool. Чуть позже я освежу в нём свой контент. А пока посмотрите,как тут всё классно и красиво!
+      .about__right 
+        .about__text
+          .undertitle ЧЕМ Я МОГУ БЫТЬ ВАМ ПОЛЕЗЕН
+          .copywrite 
+            p Больше всего меня привлекет Frontend разработка, но я также знаком и могу решать не сложные задачи
+            p на Backend. Но давайте по порядку.
+        ul.skills__list 
+            li.skills__element
+                .slils__title Frontend 
+                   ul.skills 
+                      li.skills__elements
+                      li.skills__elements
+                      li.skills__elements
+                      
