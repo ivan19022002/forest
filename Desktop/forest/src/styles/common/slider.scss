@@ -1,0 +1,13 @@
+.slider {
+    position: relative;
+}
+
+.slider__list {
+    display: flex;
+    flex-direction: row;
+}
+
+.slider__item {
+    width: 100%;
+    height: 100%;
+}

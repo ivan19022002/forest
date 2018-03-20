@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Добро пожаловать</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <link rel="stylesheet" href="./assets/styles/app.min.css">
+    <script src="/assets/scripts/bundle.js/bundle.js"></script>
+  </head>
+  <body>
+    <div class="wrapper"> 
+      <div class="maincontent"> <a class="loginLink" href="#back" title="title"> 
+          <div class="buttonLogin">Авторизоваться</div></a>
+        <div class="flip-container">       
+          <div class="fliper">    
+            <div class="front"><img class="myImg" src="assets/images/myImg.jpg" alt="">
+              <div class="myName undertitle">Матвийчук Иван</div>
+              <div class="developer">Личный сайт веб-разработчика</div>
+              <div class="socials"> <a class="social-icon" href="#" title="title">
+                  <div class="vk"></div></a><a class="social-icon" href="#" title="title">
+                  <div class="gh"></div></a><a class="social-icon" href="#" title="title">
+                  <div class="in"></div></a></div>
+              <div class="click"> <a class="works" href="my-works.html" title="title">
+                  <div class="works-click">Мои работы</div></a><a class="about" href="about.html" title="title">
+                  <div class="about-click">Обо мне</div></a><a class="blog" href="blog.html" title="title">
+                  <div class="blog-click">Блог    </div></a></div>
+            </div>
+            <div class="back" id="back">
+              <div class="login__title">АВТОРИЗУЙТЕСЬ </div>
+              <form method="POST" action="/register">
+                <div class="form-group">
+                  <label for="name"></label>
+                  <input class="form-control" id="name" type="text" placeholder="Логин" name="name">
+                </div>
+                <div class="form-group">
+                  <label for="email"></label>
+                  <input class="form-control" id="email" type="email" placeholder="Пароль" name="email">
+                </div>
+                <div class="form-group">
+                  <label>
+                    <input type="checkbox" checked="">  Я человек
+                  </label>
+                </div>
+                <div class="form-group"> 
+                  <label>Вы точно не робот?
+                    <label>
+                      <input type="radio" name="status">  Да
+                    </label>
+                    <label>
+                      <input type="radio" name="status">  Не уверен      
+                    </label>
+                  </label>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="foot">© Владимир Астахов | создано с любовью в LoftSchool | 2016                </div>
+    </div>
+    <div class="socials"></div>
+  </body>
+</html>

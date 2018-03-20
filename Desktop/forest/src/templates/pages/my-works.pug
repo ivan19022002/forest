@@ -1,0 +1,14 @@
+extends ../template
+
+block variables
+    - var title = 'Мои работы'
+
+block content
+    include ../common/welcome
+    div.container 
+        div.slider
+           div.title.slider__title.section__title-uppercase МОИ РАБОТЫ 
+           include ../common/slider
+        div.coments 
+        div.contacts 
+    

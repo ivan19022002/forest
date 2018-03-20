@@ -1,0 +1,54 @@
+extends ../template
+
+block variables
+    - var title = 'Добро пожаловать'
+
+block content
+    div.wrapper 
+        div.maincontent 
+            a(href="#back", title="title").loginLink 
+                div.buttonLogin Авторизоваться
+            div.flip-container        
+                div.fliper     
+                    div.front
+                        img(src="assets/images/myImg.jpg", alt="").myImg 
+                        div.myName.undertitle Матвийчук Иван
+                        div.developer Личный сайт веб-разработчика
+                        div.socials 
+                            a(href="#", title="title").social-icon
+                                div.vk
+                            a(href="#", title="title").social-icon
+                                div.gh
+                            a(href="#", title="title").social-icon
+                                div.in
+                        div.click 
+                            a(href="my-works.html", title="title").works
+                                div.works-click Мои работы
+                            a(href="about.html", title="title").about
+                                div.about-click Обо мне
+                            a(href="blog.html", title="title").blog
+                                div.blog-click Блог    
+                    div.back#back
+                         div.login__title АВТОРИЗУЙТЕСЬ 
+                         form(method='POST' action='/register')
+                             div.form-group
+                               label(for='name')
+                               input#name.form-control(type='text', placeholder='Логин' name='name')
+                             div.form-group
+                               label(for='email')
+                               input#email.form-control(type='email', placeholder='Пароль' name='email')
+                             div.form-group
+                               label
+                                   input(type='checkbox', checked='')
+                                   |   Я человек
+                             div.form-group 
+                                    label Вы точно не робот?
+                                       label
+                                         input(type='radio', name='status')
+                                         |   Да
+                                       label
+                                         input(type='radio', name='status')
+                                         |   Не уверен      
+                             
+
+        div.foot © Владимир Астахов | создано с любовью в LoftSchool | 2016                
